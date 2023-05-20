@@ -1,0 +1,69 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>EmpleosApp | Acerca de Empleos App</title>
+    <!-- Bootstrap core CSS -->
+    <link th:href="@{/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link th:href="@{/bootstrap/css/jumbotron.css}" rel="stylesheet">
+    <link th:href="@{/bootstrap/css/sticky-footer-navbar.css}" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header th:insert="fragments/menu :: menu-principal"></header>
+
+    <main role="main">     
+      <hr>
+      <div class="container"> 
+
+        <div class="card">
+          <h4 class="card-header">Acerca de <strong>AutoKeep</strong> </h4>              
+          <div class="card-body">
+            
+                <h2>Bienvenido a AutoKeep: tu socio confiable en el cuidado de vehículos.</h2>
+				<p>En AutoKeep, nos apasiona proporcionar servicios excepcionales de mantenimiento y reparación de automóviles para satisfacer las necesidades de nuestros clientes. Con años de experiencia en la industria y un equipo de profesionales altamente capacitados, nos enorgullece ofrecer soluciones confiables y de calidad para mantener tus vehículos en óptimas condiciones.
+
+Nuestro objetivo es brindar un servicio completo que se adapte a las necesidades individuales de cada cliente. Ya sea que necesites un cambio de aceite y filtro, una reparación de frenos, alineación y balanceo de neumáticos, o cualquier otro servicio de mantenimiento, puedes confiar en nuestro equipo experto. Trabajamos con los más altos estándares de calidad y utilizamos herramientas y equipos de vanguardia para garantizar resultados superiores.
+
+En AutoKeep, nos comprometemos a ofrecer un servicio personalizado y atención al detalle. Valoramos la transparencia en nuestras operaciones y nos esforzamos por establecer relaciones duraderas con nuestros clientes basadas en la confianza mutua y la satisfacción. Nuestro objetivo es superar tus expectativas en cada visita y proporcionarte una experiencia excepcional en el cuidado de tu vehículo.
+
+Además de nuestros servicios de mantenimiento, también ofrecemos asesoramiento experto y recomendaciones sobre cómo mantener tu vehículo en buen estado y maximizar su rendimiento. Nos preocupamos por tu seguridad en la carretera y nos comprometemos a ayudarte a mantener tu vehículo en las mejores condiciones posibles.
+
+En AutoKeep, entendemos que tu tiempo y comodidad son importantes. Por eso, hemos desarrollado un sistema de reserva en línea fácil de usar, para que puedas programar tus citas de servicio de manera conveniente y rápida.
+
+Confía en AutoKeep para el cuidado de tus vehículos. Nos enorgullece ser tu socio confiable en el mantenimiento y reparación de automóviles. ¡Contáctanos hoy mismo para descubrir cómo podemos ayudarte a mantener tu vehículo en excelentes condiciones y en funcionamiento óptimo!
+
+Recuerda, en AutoKeep, tu satisfacción y seguridad son nuestra máxima prioridad.</p>
+
+  
+          </div>
+          <div class="col-md-6  mx-auto text-center">
+        <img src="/images/Hacerca.png" alt="Imagen de auto" class="img-fluid">
+      </div>
+      
+        </div>
+        
+       
+      </div> <!-- /container -->
+  
+
+    
+
+    </main>
+
+    <footer th:insert="fragments/footer :: pie-pagina" class="footer"></footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script th:src="@{/bootstrap/js/bootstrap.min.js}"></script>     
+  </body>
+</html>
