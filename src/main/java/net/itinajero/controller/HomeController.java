@@ -104,7 +104,7 @@ public class HomeController {
 		
 		// Creamos el Perfil que le asignaremos al usuario nuevo
 		Perfil perfil = new Perfil();
-		perfil.setId(1); // 3Perfil USUARIO 2perfil administrador 1peril supervisor
+		perfil.setId(2); // 3Perfil USUARIO 2perfil administrador 1peril supervisor
 		usuario.agregar(perfil);
 		
 		/**
